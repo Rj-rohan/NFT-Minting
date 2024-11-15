@@ -1,0 +1,16 @@
+[package]
+name = "NFTMinting"
+version = "1.0.0"
+authors = []
+
+[addresses]
+NFTMinting = '0xfb8ce4f7f103291cbb7429d51fb531b25ddc6cad80b05fd3de46770424a070ec'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
